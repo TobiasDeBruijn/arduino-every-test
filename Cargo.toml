@@ -1,0 +1,7 @@
+[package]
+name = "every-test"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+ruduino = "0.2.6"
