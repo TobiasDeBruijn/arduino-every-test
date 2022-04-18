@@ -4,6 +4,7 @@ all: build
 SHELL := /bin/bash
 
 build: tools
+	rustup override set nightly-2021-01-07
 	cargo build
 
 tools: target/arduino-bin/arduino-cli target/arduino-bin/cli.yaml
